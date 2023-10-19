@@ -9,3 +9,5 @@ while True:
         break
     except:
         pass
+
+artist.save_lyrics()
