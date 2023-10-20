@@ -13,3 +13,7 @@ def get_titles_lyrics(data):
             song_details.append((title_with_featured, lyrics))
             # count += 1
     return song_details
+
+# #Access details in array to test the structure of the array is what I wanted
+# title = song_details[0][0]
+# lyrics = song_details[0][1
