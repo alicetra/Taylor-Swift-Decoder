@@ -1,3 +1,9 @@
+import json
+
+# Load the JSON file
+with open('src/Lyrics_TaylorSwift.json') as f:
+    data = json.load(f)
+
 def get_titles_lyrics(data):
     # Access 'songs' key which is a list of dictionaries
     songs = data['songs']
@@ -16,4 +22,4 @@ def get_titles_lyrics(data):
 
 # #Access details in array to test the structure of the array is what I wanted
 # title = song_details[0][0]
-# lyrics = song_details[0][1
+# lyrics = song_details[0][1]
