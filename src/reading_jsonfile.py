@@ -19,6 +19,6 @@ def get_titles_lyrics():
             # count += 1
     return song_details
 
-# #Access details in array to test the structure of the array is what I wanted
+# #Access details in list to test the structure of the list is what I wanted
 # title = song_details[0][0]
 # lyrics = song_details[0][1]
