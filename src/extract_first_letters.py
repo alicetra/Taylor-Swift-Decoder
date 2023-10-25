@@ -17,5 +17,22 @@ def extract_title_first_letters(song_details):
         title_details.append([title, first_letters])
     return title_details
 
+def extract_lyric_first_letters(song_details):
+    #initalised an empty list to store lyrics details and first letter of lyrics' words
+    lyrics_details = []
+    # Loop through each song's lyrics
+    for song in song_details:
+         # Access the lyrics
+        lyrics = song[1]
+        lyrics, words = text_formatting(lyrics)
+        #returning only the first letter of each words in the lyric
+        first_letters_lyrics = [[word[0]] for word in words]
+        #putting each song's lyrics and their corresponding first letter in its own lidy 
+        lyrics_details.append([lyrics,first_letters_lyrics])
+    return lyrics_details
+
 song_details = get_titles_lyrics()
 title_details = extract_title_first_letters(song_details)
+lyrics_details = extract_lyric_first_letters(song_details)
+
+
