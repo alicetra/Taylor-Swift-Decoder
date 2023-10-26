@@ -1,7 +1,7 @@
 import pytest
 from ordered_subset import locate_ordered_lyric_subsets
 
-def test_locate_ordered_lyric_subsets_beginning_match():
+def test_locate_ordered_lyric_subsets_indices_match():
     small = ['h', 'e', 'l', 'l', 'o']
     large = [['h'], ['e'], ['l'], ['l'], ['o'], ['w'], ['o'], ['r'], ['l'], ['d']]
     expected_output = [[0, 5]]
