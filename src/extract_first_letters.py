@@ -1,5 +1,5 @@
 
-from text_formating import text_formatting
+from text_formatting import text_formatting
 from reading_jsonfile import get_titles_lyrics
 
 
