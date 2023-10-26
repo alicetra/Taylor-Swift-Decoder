@@ -18,8 +18,10 @@ def compare_input_to_data(letters):
         matches = locate_ordered_lyric_subsets(letters, lyrics_details[i][1])
         if matches:
             words = lyrics_details[i][0].split()
-            for match in matches:  # Loop through all matches.
-                lyrics = ' '.join(words[match[0]:match[1]])  # Print lyrics full words and joining them into a string.
+            # Loop through all matches.
+            for match in matches:  
+                # Print lyrics full words and joining them into a string.
+                lyrics = ' '.join(words[match[0]:match[1]])  
                 if lyrics not in printed_lyrics:  
                     print(f"\nLyrics: {lyrics}")
                     print(f"Title of Song: {title_details[i][0]}\n")
