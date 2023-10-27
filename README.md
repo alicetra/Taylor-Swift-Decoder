@@ -109,7 +109,7 @@ If you wish to terminate application input ‘no’ once prompt to ask if you wi
 
 # Pytests
 
-In order to run the pytests, after installation you need to run the following command on the terminal 
+In order to run the pytests, after installation you need to run the following commands on the terminal 
 
 source src/myenv/bin/activate  
 pytest 
