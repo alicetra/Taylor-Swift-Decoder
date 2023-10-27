@@ -109,6 +109,11 @@ If you wish to terminate application input ‘no’ once prompt to ask if you wi
 
 # Pytests
 
+In order to run the pytests, after installation you need to run the following command on the terminal 
+
+source src/myenv/bin/activate  
+pytest 
+
 **test_user_input**  
 
 I ran a pytest to ensure that my error handling for user_input was solid. My decoding will not work if user_input is not working as expected. It is the start and foundation of my application 
