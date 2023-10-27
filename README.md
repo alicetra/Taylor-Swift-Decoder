@@ -204,5 +204,5 @@ This test checks if the function can correctly identify a match in the middle of
   Available at: https://lyricsgenius.readthedocs.io/en/master/.
 - Instructions to install Python 3. (n.d.).  
 Available at: https://www.shahandanchor.com/home/wp-content/uploads/Python-installation-instructions-1.pdf.
-- docs.pytest.org. (n.d.). pytest: helps you write better programs — pytest documentation.
+- docs.pytest.org. (n.d.). pytest: helps you write better programs — pytest documentation.  
 Available at: https://docs.pytest.org/en/7.4.x/.
