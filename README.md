@@ -59,7 +59,8 @@ According to PEP8 style guide, there should be two blank lines between functions
 # System/Hardware requirements 
 Bash script for installment of application requires Unix-like systems (such as Linux and macOS)  
 The application was coded in Python 3.10.12.  
-Python installation requires operating system: Linux- Ubuntu 16.04 to 17.10, or Windows 7 to 10, with minimum 2GB RAM (4GB preferable) 
+Python installation minimum requirement:  
+operating system: Linux- Ubuntu 16.04 to 17.10, or Windows 7 or 10, with minimum 2GB RAM (4GB preferable) 
 
 # Installation 
 
