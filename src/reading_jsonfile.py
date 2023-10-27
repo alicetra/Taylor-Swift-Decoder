@@ -1,9 +1,13 @@
 import json
-
+import os
 
 def get_titles_lyrics():
+    # Get the directory of this script.
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    # Construct the full path to the JSON file.
+    json_path = os.path.join(dir_path, 'Lyrics_TaylorSwift.json')
+    with open(json_path) as f:
     # Load the JSON file.
-    with open('src/Lyrics_TaylorSwift.json') as f:
         data = json.load(f)
     # Access 'songs' key which is a list of dictionaries.
     songs = data['songs']
