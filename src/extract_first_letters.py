@@ -17,6 +17,7 @@ def extract_title_first_letters(song_details):
         title_details.append([title, first_letters])
     return title_details
 
+
 def extract_lyric_first_letters(song_details):
     # Initalised an empty list to store lyrics details and first letter of lyrics' words.
     lyrics_details = []
@@ -30,6 +31,7 @@ def extract_lyric_first_letters(song_details):
         # Putting each song's lyrics and their corresponding first letter in its own list.
         lyrics_details.append([lyrics,first_letters_lyrics])
     return lyrics_details
+
 
 song_details = get_titles_lyrics()
 title_details = extract_title_first_letters(song_details)

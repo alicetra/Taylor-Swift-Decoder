@@ -1,6 +1,7 @@
 from extract_first_letters import title_details, lyrics_details
 from ordered_subset import locate_ordered_lyric_subsets
 
+
 def compare_input_to_data(letters):
     printed_titles = set()
     printed_lyrics = set()
@@ -20,7 +21,7 @@ def compare_input_to_data(letters):
         if matches:
             words = lyrics_details[i][0].split()
             # Loop through all matches.
-            for match in matches: 
+            for match in matches:
                 # Print lyrics full words and joining them into a string. 
                 lyrics = ' '.join(words[match[0]:match[1]])  
                 if lyrics not in printed_lyrics:  
@@ -32,3 +33,4 @@ def compare_input_to_data(letters):
     # If no match was found after all iterations.
     if not found_match:  
         print("The abbreviation doesn't match any lyrics or song title")
+        

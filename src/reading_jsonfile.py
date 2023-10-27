@@ -1,5 +1,6 @@
 import json
 
+
 def get_titles_lyrics():
     # Load the JSON file.
     with open('src/Lyrics_TaylorSwift.json') as f:
